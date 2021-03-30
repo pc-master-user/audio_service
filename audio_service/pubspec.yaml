@@ -10,9 +10,10 @@ environment:
 dependencies:
   # TODO: change this to hosted once released.
   audio_service_platform_interface:
-    url: https://github.com/pc-master-user/audio_service.git
-    ref: one-isolate
-    path: audio_service_platform_interface
+    git:
+      url: https://github.com/pc-master-user/audio_service.git
+      ref: one-isolate
+      path: audio_service_platform_interface
   audio_session: ^0.1.0
   rxdart: ^0.26.0
   flutter_cache_manager: ^3.0.0-nullsafety.1
